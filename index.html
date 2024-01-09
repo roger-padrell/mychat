@@ -4,8 +4,31 @@
  </head> 
   <body>
     <div id="messages"></div>
-    <input id="in">
-    <button id="send">SEND</button>
+    <div id="inbox">
+      <input id="in">
+      <button id="send">S</button>
+    </div>
   </body>
   <script src="mychat.js"></script>
+  <style>
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #in{
+      width: 90%;
+    }
+    #messages{
+      height: 90%;
+      width: 30%;
+    }
+    #inbox{
+      width: 30%;
+    }
+    #send{
+      width: 9%;
+    }
+  </style>
 </html>
